@@ -1,0 +1,11 @@
+<%- include("head"); -%>
+
+    <form id="loginform" method="POST" action="/login" >
+     <input  required class="loginforminput" type="text" placeholder="Username" name="username" />
+     <input  required class="loginforminput" type="password" placeholder="Password" name="password" />
+     <button class="loginformbutton" id="loginformbutton" type="submit">Login</button>
+     <br>
+   </form>
+    <a  href="/signup" ><button type="submit"  class="btn btn-outline-dark  mybutton" name="blogbtn" >Create New Account</button></a>
+
+<%- include("foot"); -%>
